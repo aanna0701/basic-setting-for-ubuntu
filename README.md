@@ -101,6 +101,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 3. Add following line in `~/.tmux.conf` for using zsh
 
-   ``bash
+   ```bash
    set-option -g default-shell /bin/zsh
    ```
