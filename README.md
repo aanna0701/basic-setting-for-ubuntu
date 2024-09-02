@@ -58,7 +58,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
     ```bash
     git clone https://github.com/trapd00r/LS_COLORS.git
     ```
+2. To enable the colors, add the following line to your shell's start-up script.
 
+    ```bash
+    source ~/path/to/lscolors.sh
+    ```
 
 ## Tmux
 
