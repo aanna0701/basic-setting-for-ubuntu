@@ -78,23 +78,23 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 2. Change color theme manually by chaning ~/.tmux.conf.local
 
    ```bash
-    # Modify tmux_conf_theme_colour_x with bellow lines
-    # Atom One Dark theme
-    tmux_conf_theme_colour_1="#282c34"  # Background (Very dark gray-blue)
-    tmux_conf_theme_colour_2="#3e4451"  # Pane borders (Dark gray)
-    tmux_conf_theme_colour_3="#5c6370"  # Inactive panes (Gray)
-    tmux_conf_theme_colour_4="#61afef"  # Focused pane (Bright blue)
-    tmux_conf_theme_colour_5="#e5c07b"  # Text (Gold)
-    tmux_conf_theme_colour_6="#282c34"  # Unfocused pane (Very dark gray-blue)
-    tmux_conf_theme_colour_7="#abb2bf"  # Status line (Light gray)
-    tmux_conf_theme_colour_8="#282c34"  # Background (Very dark gray-blue)
-    tmux_conf_theme_colour_9="#e06c75"  # Highlighted text (Soft red)
-    tmux_conf_theme_colour_10="#c678dd" # Warnings (Purple)
-    tmux_conf_theme_colour_11="#98c379" # Success or active (Green)
-    tmux_conf_theme_colour_12="#5c6370" # Inactive elements (Gray)
-    tmux_conf_theme_colour_13="#abb2bf" # Inactive text (Light gray)
-    tmux_conf_theme_colour_14="#282c34" # Background (Very dark gray-blue)
-    tmux_conf_theme_colour_15="#282c34" # Inactive borders (Very dark gray-blue)
-    tmux_conf_theme_colour_16="#d19a66" # Alerts (Orange)
-    tmux_conf_theme_colour_17="#abb2bf" # Text (Light gray)
+   # Modify tmux_conf_theme_colour_x with bellow lines
+   # Atom One Dark theme
+   tmux_conf_theme_colour_1="#282c34"  # Background (Very dark gray-blue)
+   tmux_conf_theme_colour_2="#3e4451"  # Pane borders (Dark gray)
+   tmux_conf_theme_colour_3="#5c6370"  # Inactive panes (Gray)
+   tmux_conf_theme_colour_4="#61afef"  # Focused pane (Bright blue)
+   tmux_conf_theme_colour_5="#e5c07b"  # Text (Gold)
+   tmux_conf_theme_colour_6="#282c34"  # Unfocused pane (Very dark gray-blue)
+   tmux_conf_theme_colour_7="#abb2bf"  # Status line (Light gray)
+   tmux_conf_theme_colour_8="#282c34"  # Background (Very dark gray-blue)
+   tmux_conf_theme_colour_9="#e06c75"  # Highlighted text (Soft red)
+   tmux_conf_theme_colour_10="#c678dd" # Warnings (Purple)
+   tmux_conf_theme_colour_11="#98c379" # Success or active (Green)
+   tmux_conf_theme_colour_12="#5c6370" # Inactive elements (Gray)
+   tmux_conf_theme_colour_13="#abb2bf" # Inactive text (Light gray)
+   tmux_conf_theme_colour_14="#282c34" # Background (Very dark gray-blue)
+   tmux_conf_theme_colour_15="#282c34" # Inactive borders (Very dark gray-blue)
+   tmux_conf_theme_colour_16="#d19a66" # Alerts (Orange)
+   tmux_conf_theme_colour_17="#abb2bf" # Text (Light gray)
    ```
