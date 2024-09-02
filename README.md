@@ -75,7 +75,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
     cp .tmux/.tmux.conf.local .
     ```
 
-2. Change color theme manually by chaning ~/.tmux.conf.local
+2. Change color theme manually by chaning `~/.tmux.conf.local`
 
    ```bash
    # Modify tmux_conf_theme_colour_x with bellow lines
@@ -97,4 +97,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    tmux_conf_theme_colour_15="#282c34" # Inactive borders (Very dark gray-blue)
    tmux_conf_theme_colour_16="#d19a66" # Alerts (Orange)
    tmux_conf_theme_colour_17="#abb2bf" # Text (Light gray)
+   ```
+
+3. Add following line in `~/.tmux.conf` for using zsh
+
+   ``bash
+   set-option -g default-shell /bin/zsh
    ```
